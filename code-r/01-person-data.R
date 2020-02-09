@@ -63,11 +63,28 @@ person_data4 = data.frame(
   like_bus_travel
 )
 
+#Group5
+person_name = c(
+  "Joe",
+  "BINGHONG"
+  
+)
+n_coffee = c(
+  5, 1
+)
+like_bus_travel = c(
+  TRUE,
+  FALSE
+
+)
+personal_data5 = data.frame(person_name, n_coffee, like_bus_travel) 
+
 everyone = rbind(
   personal_data1,
   personal_data2,
   personal_data3,
-  person_data4
+  person_data4,
+  personal_data5
   )
 
 mean(everyone$n_coffee)
